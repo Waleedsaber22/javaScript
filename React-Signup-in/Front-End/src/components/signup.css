@@ -1,0 +1,184 @@
+.Sign-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("bg-form.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position: relative;
+  }
+  
+  #patient-form , #doctor-form
+  , #Signin-form{
+    background-color: #20524e;
+    padding: 30px 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 6px 6px 6px 6px #1b3b39;
+  }
+  #patient-form , #doctor-form {
+  width: 712px;
+  height:530px;
+  }
+ .Sign-form  h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .patient-signup , .doctor-signup{
+   position: relative;
+   width: 400px;
+   height: 50px;
+   border:none;
+   color: #20524e;
+   padding: 10px;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   cursor: pointer;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   background-color: #b0eed9;
+  }
+  .patient-signup{
+  left:377px;
+  bottom:515px;
+  }
+  .doctor-signup{
+    left:  377px;
+    bottom: 999px;
+   }
+   .Sign-form button:hover{
+    background-color:#e3e3e3;
+    border-color:#e3e3e3;
+  }
+  .choose {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20524e;
+    padding: 5px 5px;
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 6px 6px 6px 6px #1b3b39; 
+    margin: 0px;
+  }
+  #choose-patient , #choose-doctor{
+   color: #20524e;
+   padding: 10px;
+   width: 100%;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   cursor: pointer;
+   margin-top: 15px;
+   margin-bottom: 20px;
+  }
+  #Gender-signup {
+    position: relative;
+    padding: 10px;
+    margin:10px 0px;
+    border-radius: 10px;
+    outline:none;
+    width: 357px;
+    height: 42px;
+    left:  390px;
+    bottom: 620px;
+  }
+  #Gender-signupD  {
+    position: relative;
+    left:  262px;
+    bottom: 851px;
+    outline:none;
+    padding: 10px;
+    height: 42px;
+    width:243px;
+  }
+  
+  #Specialization-signupD , #Degree-signupD
+  {
+    position:relative;
+    left:  540px;
+    bottom: 1127px;
+    margin-bottom: 60px;
+  }
+  #Specialization-signupD {
+    padding: 10px;
+    height: 40px;
+    width:243px;
+    left:  530px;
+  }
+  
+  #Gender-signup label , #Gender-signupD label
+  ,#Specialization-signupD label{
+    color: white; 
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    width: 100%;  
+  }
+  #Gender-signupD label
+  ,#Specialization-signupD label ,
+  #Gender-signup label
+  {
+  margin-bottom: 10px;
+  }
+  #Gender-signup select ,  #Gender-signupD select
+  ,#Specialization-signupD select {
+    font-size: 15px;
+    font-weight: 500;
+    width:  100%;
+    height: 100%;
+    font-style: italic;
+    padding: 2px;
+    background-color: #f5f8fa;
+    border:3px solid #5e6278;
+    box-shadow: 3px 3px 3px 3px #1b3b39;
+    border-radius: 10px;
+    outline: none;
+  }
+  #Gender-signup option , #Gender-signupD option{
+   text-align: center;
+  }
+  #Degree-signupD input{
+    border:3px solid #5e6278;
+  }
+  #Upload-signupD{
+   position: relative;
+   left:  540px;
+   bottom: 485px;
+   height: 330px;
+  }
+  #selectS   /* select option names */
+   {          
+    color: grey;
+  }
+  
+  .Sign-form a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #Signin-link{
+    position: relative;
+    right: 540px;
+    top: 353px;
+    width: 300px;
+  }
+  
+  #Signin-linkP{
+    position: absolute;
+    right: 467px;
+    top: 220px;
+    width: 300px;
+  }
+  

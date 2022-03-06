@@ -1,0 +1,38 @@
+#Signin-form {
+    width: auto;
+    height: auto;
+}
+
+#Password-signin input , #Username-signin input{
+    padding: 10px;
+    margin:10px 0px;
+    border-radius: 10px;
+    outline:none;
+    background-color: #f5f8fa;
+    color:#5e6278;
+    border:3px solid #5e6278;
+    box-shadow: 6px 6px 6px 6px #1b3b39;
+    width: 375px;
+    border:3px solid #5e6278;
+}
+
+.signin-button{
+    width: 400px;
+    height: 50px;
+    border:none;
+    color: #20524e;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #b0eed9;
+}
+
+
+#Password-signin span , #Username-signin span
+,#Password-signin i , #Username-signin i{
+    display: none;
+}

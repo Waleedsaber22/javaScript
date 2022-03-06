@@ -1,0 +1,129 @@
+.Inputform {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 27px;
+    position: relative;
+}
+.Sign-form  input
+{
+padding: 10px;
+margin:10px 0px;
+border-radius: 10px;
+outline:none;
+background-color: #f5f8fa;
+color:#5e6278;
+border:3px solid #5e6278;
+box-shadow: 6px 6px 6px 6px #1b3b39;
+width: 330px;
+}
+.Sign-form label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+.Sign-form  span {
+    color:red;
+    font-size: 12px;
+    padding:3px;
+    visibility: hidden;
+    position: absolute;
+    top:80px;
+}
+#patient-form input:invalid[focus = "true"], 
+#doctor-form  input:invalid[focus = "true"]
+ {
+    border: 3px solid  #e74c3c;
+}
+#patient-form input:focus, 
+#doctor-form  input:focus
+{
+    border: 3px solid rgb(47, 35, 77);
+}
+#patient-form input:valid, 
+#doctor-form  input:valid
+{
+    border: 3px solid #2ecc71;
+}
+#patient-form input.birthday-signup ,
+#patient-form input.upload-signup
+,#doctor-form input.birthday-signupD ,
+#doctor-form input.upload-signupD ,
+#doctor-form input.Degree-Signup
+{
+    border:3px solid #5e6278;
+}
+div[id = "Username-signup"]            /* div for marign top of username */
+, div[id = "Username-signupD"]   
+{
+    margin-top: 20px;
+}
+div[id = "Email-signup"] , div[id = "Birthday-signup"]     /* Email and birthday */
+{                   
+    bottom: 219px;
+    left:400px;
+}
+div[id = "Email-signupD"] , div[id = "Birthday-signupD"]{
+   left:270px;
+   bottom: 219px;
+}
+div[id = "Password-signup"] ,  div[id = "Password-signupD"]      /* password */
+{
+    bottom: 225px;
+    margin-bottom: 20px;         
+}
+div[id = "Password-signup"] span , div[id = "Password-signupD"] span{
+    width:300px
+}
+div[id = "Confirmpassword-signup"]                 /* confirmpassword */
+, div[id = "Confirmpassword-signupD"]           
+{
+    bottom: 235px;
+    margin-bottom: 20px;         
+}
+
+div[id = "Upload-signup"]                    /* upload image */
+, div[id = "Upload-signupD"] 
+{
+    bottom: 400px;
+    left:  400px;
+    margin-top: 10px;         
+}
+#patient-form i, 
+#doctor-form  i,
+#Signin-form  i{
+    visibility:hidden;
+    position: absolute;
+    top:45px;
+    left:327px;
+}
+
+i[id = "Birthday-signup"] , i[id = "Upload-signup"] , 
+i[id = "Birthday-signupD"] , i[id = "Upload-signupD"]
+{
+    display:none;
+}
+
+i.fa-check-circle{
+color:green;
+}
+i.fa-exclamation-circle{
+color:red;
+}
+input:invalid[focus = "true"] ~ span ,
+input:invalid[focus = "true"] ~ i.fa-exclamation-circle 
+,input:valid ~ i.fa-check-circle
+ {
+    visibility:visible;
+}
+
+#doctor-form input  ,#doctor-form input  span{
+    width:220px;
+}
+
+#doctor-form i.fa-exclamation-circle , #doctor-form i.fa-check-circle
+{
+  left: 220px;
+}
