@@ -90,4 +90,4 @@ let Footer = document.createElement("footer");
 Footer.innerHTML = "Copyright &reg; 2022"
 // Footer.appendChild(footerText);
 document.body.appendChild(Footer);
-Footer.style.cssText = "background-color: #9dc99d;font-size:26px;padding:20px;text-align:center"
+Footer.style.cssText = "background-color: #9dc99d;font-size:26px;padding:20px;text-align:center";
