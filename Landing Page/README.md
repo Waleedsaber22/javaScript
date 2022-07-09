@@ -11,8 +11,8 @@ with a dynamically updating navigational menu based on the amount of content tha
 
 ## Development
 
-**Css File** --> style all html elemets including class active added,
-for every section also slide up.
+**Css File** --> style all html elemets including class active added
+for every section also rules applied to slide up class.
 
 **HTML File** ---> create only HTML elements with out lists that added dynamically using JavaScript.
 
