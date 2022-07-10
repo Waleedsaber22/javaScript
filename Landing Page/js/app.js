@@ -42,7 +42,20 @@ let add_class = () =>{
 window.addEventListener('scroll',add_class);
 
 /* adding scroll behavior */
-document.documentElement.style.scrollBehavior = 'smooth';
+
+menu.addEventListener('click',(eve)=>{                // using event delegation for more preformance
+eve.preventDefault();
+if(eve.target.nodeName.toLowerCase() == 'a'){
+const ele = document.querySelector(eve.target.href.slice(eve.target.href.lastIndexOf('/')+1));
+// ele.scrollIntoView({behavior:'smooth',
+// block:'center',inline:"nearest"});
+window.scrollTo({top:ele.offsetTop-90,left:ele.offsetLeft,behavior:'smooth'});
+ }
+})
+slide.addEventListener('click',(eve)=>{
+    eve.preventDefault();
+    window.scrollTo({top:0,left:0,behavior:'smooth'});
+})
 
 /* adjust margin of header_name according to nav list numbers */
 let header_name = document.querySelector('.header_name');
@@ -54,7 +67,6 @@ let is_scroll = false;
 let timer_id;
 let nav = document.querySelector('.nav_menu');
 let is_hidden = false;
-
 
 let hide_nav = ()=> {
     nav.style = `position:fixed;transition: top 1s ease;top:${-nav.offsetHeight-10}px;`;

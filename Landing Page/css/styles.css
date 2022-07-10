@@ -62,7 +62,6 @@ section{
     rgb(213, 220, 226)
     rgb(184, 194, 204);
     text-transform: capitalize;
-    scroll-margin-top: 5rem;
     transform-style: preserve-3d;
     transition:  1.3s ease transform,1.3s ease border-radius;
 }
