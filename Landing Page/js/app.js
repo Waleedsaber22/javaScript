@@ -41,6 +41,9 @@ let add_class = () =>{
     }
 window.addEventListener('scroll',add_class);
 
+/* adding scroll behavior */
+document.documentElement.style.scrollBehavior = 'smooth';
+
 /* adjust margin of header_name according to nav list numbers */
 let header_name = document.querySelector('.header_name');
 header_name.style.marginTop = `${menu.offsetHeight+ 40}px`; 
@@ -65,7 +68,7 @@ scrolled = () =>{
 }
 window.addEventListener('scroll',scrolled);
 
-/* adding functionality when moving mouse up nav bar apper*/
+/* adding functionality when moving mouse up nav bar appear*/
 window.addEventListener('mousemove',(eve)=>{
 if((eve.clientY <= nav.offsetHeight) && is_hidden){
     is_hidden = false;
