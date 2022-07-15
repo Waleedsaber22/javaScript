@@ -1,7 +1,7 @@
-# Landing Page Project
+# Weather Journal App with Asynchronous JavaScript
 
-This project accomplish a multi-section landing page,
-with a dynamically updating navigational menu based on the amount of content that is added to the page.
+This project create an asynchronous web app that uses Web API and user data  
+to dynamically update the UI in a Weather Journal application.
 
 ## Usage
 
