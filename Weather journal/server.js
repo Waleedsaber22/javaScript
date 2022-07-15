@@ -12,7 +12,7 @@ const app = express();
 /* Dependencies */
 /* configure express to use body-parser and cors to be included in app as Middle-ware */
 const bodyParser = require("body-parser");
-bodyParser.urlencoded({ extended: false });
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 const cors = require("cors");
 app.use(cors());
